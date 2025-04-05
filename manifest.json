@@ -13,8 +13,8 @@
         "type": "image/png"
       }
     ],
-    "start_url": "index.html",
-    "display": "standalone",
+    "start_url": "/shopease-pwa/index.html",
+  "scope": "/shopease-pwa/",
     "background_color": "#ffffff",
     "theme_color": "#4CAF50"
   }
