@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ShopEase | Products</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav>
+  <div class="logo">🛍️ ShopEase</div>
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="prod.html">Products</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="cart.html">Cart 🛒 <span id="cart-count">0</span></a></li>
+  </ul>
+</nav>
+
+<section class="products">
+  <h2>Our Bestsellers</h2>
+  <div class="product-grid">
+    
+    <div class="product-card">
+      <img src="https://images.unsplash.com/photo-1606813902910-3ff2dc16ba16?auto=format&fit=crop&w=300&q=80" alt="Wireless Headphones">
+      <h3>Wireless Headphones</h3>
+      <p class="price">$59.99</p>
+      <p class="description">High-quality sound with noise cancellation for ultimate music experience.</p>
+      <button onclick="addToCart('Wireless Headphones')">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+      <img src="https://images.unsplash.com/photo-1512499617640-c2f999fe1a4c?auto=format&fit=crop&w=300&q=80" alt="Smart Watch">
+      <h3>Smart Watch</h3>
+      <p class="price">$99.99</p>
+      <p class="description">Track your health and stay connected with a sleek, modern smartwatch.</p>
+      <button onclick="addToCart('Smart Watch')">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+      <img src="https://images.unsplash.com/photo-1612817154474-b0c4dc5d3e6e?auto=format&fit=crop&w=300&q=80" alt="Bluetooth Speaker">
+      <h3>Bluetooth Speaker</h3>
+      <p class="price">$39.99</p>
+      <p class="description">Portable speaker with deep bass and 12-hour battery life.</p>
+      <button onclick="addToCart('Bluetooth Speaker')">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+      <img src="https://images.unsplash.com/photo-1606813903244-b7f7f1e6aa04?auto=format&fit=crop&w=300&q=80" alt="Stylish Backpack">
+      <h3>Stylish Backpack</h3>
+      <p class="price">$49.99</p>
+      <p class="description">Durable and lightweight backpack perfect for work, travel, and school.</p>
+      <button onclick="addToCart('Stylish Backpack')">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+      <img src="https://images.unsplash.com/photo-1622519406630-05ee5840c6db?auto=format&fit=crop&w=300&q=80" alt="Sunglasses">
+      <h3>Classic Sunglasses</h3>
+      <p class="price">$19.99</p>
+      <p class="description">Protect your eyes in style with our polarized, scratch-resistant sunglasses.</p>
+      <button onclick="addToCart('Classic Sunglasses')">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+      <img src="https://images.unsplash.com/photo-1612627444279-5e643b51f8a8?auto=format&fit=crop&w=300&q=80" alt="Fitness Shoes">
+      <h3>Fitness Shoes</h3>
+      <p class="price">$89.99</p>
+      <p class="description">Lightweight, comfortable, and built for performance and everyday wear.</p>
+      <button onclick="addToCart('Fitness Shoes')">Add to Cart</button>
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  <p>© 2025 ShopEase. All rights reserved.</p>
+</footer>
+
+<script src="cart.js"></script>
+</body>
+</html>
