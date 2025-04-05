@@ -1,15 +1,18 @@
+
+
 const CACHE_NAME = 'shopease-cache-v1';
 const urlsToCache = [
-  '/',
-  '/index.html',
-  '/prod.html',
-  '/cart.html',
-  '/styles.css',
-  '/cart.js',
-  '/manifest.json',
-  '/favicon.ico',
-  'https://via.placeholder.com/150', // Product images (dummy placeholders)
+  '/shopease-pwa/',
+  '/shopease-pwa/index.html',
+  '/shopease-pwa/products.html',
+  '/shopease-pwa/cart.html',
+  '/shopease-pwa/styles.css',
+  '/shopease-pwa/cart.js',
+  '/shopease-pwa/manifest.json',
+  '/shopease-pwa/favicon.ico',
 ];
+
+
 
 // Install event - cache all static assets
 self.addEventListener('install', (event) => {
